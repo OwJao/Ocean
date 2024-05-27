@@ -105,67 +105,54 @@ main {
     text-align: center;
 }
 
-#intro {
-    padding: 10px;
+#participar {
     background-color: rgba(255, 255, 255, 0.568);
-    border-radius: 10px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.637);
-    color: rgb(34, 33, 33);
-    text-shadow: 0px 0px 3px rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#participar img {
+    width: 550px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.555);
+}
+
+#participar h2 {
+    font-size: 2em;
+    color: rgb(5, 83, 88);
+    text-shadow: 0px 0px 5px rgb(255, 255, 255);
+}
+
+section {
     margin-bottom: 2rem;
 }
 
-#intro p {
+article {
+    margin-bottom: 2rem;
+    text-align: left;
+    padding: 0px 40px;
+}
+
+article h3 {
+    text-shadow: 0px 0px 3px rgb(255, 255, 255);
+    text-indent: 2em;
+    font-size: 1.5em;
+    color: rgb(34, 33, 33);
+    text-shadow: 0px 0px 3px rgb(255, 255, 255);
+}
+
+article p {
     font-weight: bold;
-}
-
-#destaques .cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem;
-}
-
-#destaques h2 {
     color: rgb(34, 33, 33);
     text-shadow: 0px 0px 3px rgb(255, 255, 255);
+    font-size: 1.1em;
 }
 
-.card {
-    background-color: rgba(255, 255, 255, 0.568);
-    border-radius: 10px;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.637);
-    border: 1px solid #ccc;
-    padding: 1rem;
-    width: 200px;
-}
-
-.card p {
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-weight: bold;
     color: rgb(34, 33, 33);
     text-shadow: 0px 0px 3px rgb(255, 255, 255);
-}
-
-.cards h3 a {
-    text-decoration: none;
-    color: rgb(44, 154, 161);
-    text-shadow: 0px 0px 3px rgb(255, 255, 255);
-}
-
-.cards h3 {
-    transition: .5s ease;
-}
-
-.cards h3:hover {
-    transition: .5s ease;
-    transform: scale(1.1);
-}
-
-footer {
-    background-color: #2a9df4;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
