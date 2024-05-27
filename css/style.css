@@ -130,6 +130,12 @@ main {
     width: 200px;
 }
 
+.card img {
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.555);
+}
+
 .card p {
     color: rgb(34, 33, 33);
     text-shadow: 0px 0px 3px rgb(255, 255, 255);
@@ -140,8 +146,8 @@ main {
 .cards h3 a {
     font-size: 1.2em;
     text-decoration: none;
-    color: rgb(44, 154, 161);
-    text-shadow: 0px 0px 3px rgb(255, 255, 255);
+    color: rgb(34, 116, 122);
+    text-shadow: 0px 0px 3px white;
 }
 
 .cards h3 {
