@@ -1,0 +1,175 @@
+@font-face {
+    font-family: AWAFONT;
+    src: url(../fonts/2.ttf);
+}
+
+@font-face {
+    font-family: AWANAV;
+    src: url(../fonts/2.ttf);
+}
+
+body {
+    background-image: url(../imagens/otraawa.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+header nav {
+    overflow: auto;
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 0.568);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.637);
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+header nav a {
+    font-family: AWANAV;
+    text-decoration: none;
+    color: rgb(34, 116, 122);
+    text-shadow: 0px 0px 3px white;
+    transition: .5s ease;
+}
+
+header nav a:hover {
+    transition: .5s ease;
+    transform: scale(1.1);
+}
+
+#seta {
+    width: 30px;
+    margin-right: -20px;
+}
+
+#nometitle {
+    font-family: AWANAV;
+    color: rgb(5, 83, 88);
+    text-shadow: 0px 0px 5px rgb(255, 255, 255);
+    font-size: 1.3em;
+}
+
+.boxfoda {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: fit-content;
+    background-color: rgba(255, 255, 255, 0.568);
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.637);
+}
+
+#logofoda {
+    padding: 0px 5px;
+}
+
+#logofoda img {
+    width: 100px;
+    transition: .5s ease;
+    -webkit-filter: drop-shadow(0px 0px 10px rgb(255, 239, 239));
+    filter: drop-shadow(0px 0px 3px rgb(5, 97, 97));
+}
+
+#logofoda img:hover {
+    transition: .5s ease;
+    transform: scale(1.1);
+    -webkit-filter: drop-shadow(0px 0px 10px rgb(255, 255, 255));
+    filter: drop-shadow(0px 0px 10px rgb(5, 97, 97));
+}
+
+#titulofoda {
+    color: rgb(44, 154, 161);
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 2.5em;
+    font-family: AWAFONT;
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+#intro {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.568);
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.637);
+    color: rgb(34, 33, 33);
+    text-shadow: 0px 0px 3px rgb(255, 255, 255);
+    margin-bottom: 2rem;
+}
+
+#intro p {
+    font-weight: bold;
+}
+
+#destaques .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#destaques h2 {
+    color: rgb(34, 33, 33);
+    text-shadow: 0px 0px 3px rgb(255, 255, 255);
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.568);
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.637);
+    border: 1px solid #ccc;
+    padding: 1rem;
+    width: 200px;
+}
+
+.card p {
+    color: rgb(34, 33, 33);
+    text-shadow: 0px 0px 3px rgb(255, 255, 255);
+}
+
+.cards h3 a {
+    text-decoration: none;
+    color: rgb(44, 154, 161);
+    text-shadow: 0px 0px 3px rgb(255, 255, 255);
+}
+
+.cards h3 {
+    transition: .5s ease;
+}
+
+.cards h3:hover {
+    transition: .5s ease;
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #2a9df4;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
