@@ -106,67 +106,23 @@ main {
     text-align: center;
 }
 
-#intro {
-    padding: 10px;
+#importancia {
     background-color: rgba(255, 255, 255, 0.568);
-    border-radius: 10px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.637);
-    color: rgb(34, 33, 33);
-    text-shadow: 0px 0px 3px rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+section {
     margin-bottom: 2rem;
 }
 
-#intro p {
-    font-weight: bold;
+article {
+    margin-bottom: 2rem;
+    text-align: left;
 }
 
-#destaques .cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem;
-}
-
-#destaques h2 {
-    color: rgb(34, 33, 33);
-    text-shadow: 0px 0px 3px rgb(255, 255, 255);
-}
-
-.card {
-    background-color: rgba(255, 255, 255, 0.568);
-    border-radius: 10px;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.637);
-    border: 1px solid #ccc;
-    padding: 1rem;
-    width: 200px;
-}
-
-.card p {
-    color: rgb(34, 33, 33);
-    text-shadow: 0px 0px 3px rgb(255, 255, 255);
-}
-
-.cards h3 a {
-    text-decoration: none;
-    color: rgb(44, 154, 161);
-    text-shadow: 0px 0px 3px rgb(255, 255, 255);
-}
-
-.cards h3 {
-    transition: .5s ease;
-}
-
-.cards h3:hover {
-    transition: .5s ease;
-    transform: scale(1.1);
-}
-
-footer {
-    background-color: #2a9df4;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
 }
